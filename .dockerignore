@@ -1,0 +1,8 @@
+big_set
+class
+local_pickles
+order
+results
+*.ipynb
+nohup.out
+*pkl

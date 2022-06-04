@@ -1,0 +1,10 @@
+numpy
+tqdm
+pickle5
+joblib
+scikit-learn
+networkx
+fastcluster
+matplotlib
+seaborn
+click
