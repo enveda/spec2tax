@@ -11,7 +11,7 @@ Classifier_inter_and_intraclass_classification.ipynb assumes there are datasets 
 ## Datasets
 
 **Interclass Classification**
-This dataset samples 5000 spectra from each of these 5 taxonomic classes: Mammalia, Actinomycetia, Coscinodiscophyceae, Anthozoa, Insecta. The spectra were converted to a 300-dimension embedding by the spec2vec model. Failed conversions (amounting to less than <~2% of the total dataset) were excluded. The datasets are saved in as numpy arrays in X (spec2vec embeddings) and y (class labels converted to ints of the embeddings) pickle files. 
+This dataset samples 5000 spectra from each of these 5 taxonomic classes: Mammalia, Actinomycetia, Coscinodiscophyceae, Anthozoa, Insecta. Raw mass spec data were mapped to a 300-dimension dense embedding space with a spec2vec model. Failed conversions (amounting to less than <~2% of the total dataset) were excluded. The datasets are saved in as numpy arrays in X (spec2vec embeddings) and y (class labels converted to ints of the embeddings) pickle files. 
 
 **Intraclass Mammalia Classification**
 These dataset samples 5000 spectra from each of these 3 taxonomic families within the class Mammalia: Hominidae, Muridae, Rhinocerotidae. Data processing and filenames are as described above. 
