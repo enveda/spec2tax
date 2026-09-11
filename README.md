@@ -21,3 +21,7 @@ These dataset samples 1000 spectra from each of these 2 taxonomic families withi
 
 **Intraclass Magnoliopsida Classification**
 These dataset samples 500 spectra from each of these 3 taxonomic families within the class Magnoliopsida: Malvaceae, Euphorbiaceae and Moraceae. Data processing and filenames are as described above. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
